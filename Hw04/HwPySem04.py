@@ -62,7 +62,7 @@ def task_24_picking():
     # path1txt= "D:\\MOE\\Coding\\GBedu\\2RzrA2_Python_seminrs\\Hw04\\bed.txt"        //трабл правл послдевтл ???
     # path1txt= "D:\MOE\Coding\GBedu\2RzrA2_Python_seminrs\Hw04\bed.txt"              //трабл правл послдевтл ???
     # path1 = Path("MOE","Coding","GBedu","2RzrA2_Python_seminrs","Hw04","bed.txt")    //трабл
-    path1 = Path(pathlib.Path.cwd(),"Hw04","bed.txt")                                   //ok
+    path1 = Path(pathlib.Path.cwd(),"Hw04","bed.txt")                                   #ok
 
     print(path1)
    
